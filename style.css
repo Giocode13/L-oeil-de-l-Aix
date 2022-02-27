@@ -1,0 +1,44 @@
+/* Général */
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: #f1f1f1;
+    box-sizing: border-box;
+}
+
+
+/* Nav */
+.navbar-brand{
+    font-size: 25px;
+    
+}
+#navbarCollapse a {
+    font-size: 20px;
+}
+
+
+/* Header */
+
+header{
+    background: url('img/img\ accueil.jpg');
+    background-size: cover ;
+    height:80vh;
+}
+
+.text-intro{
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+.preTxt{
+    font-size: 20px;
+    color: #f1f1f1;
+    padding-top: 20px;
+    }
+
+h1{
+    font-size: 90px;
+    color: #f1f1f1;
+    font-weight: 700;
+}
