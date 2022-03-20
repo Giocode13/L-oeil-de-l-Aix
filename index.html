@@ -13,7 +13,7 @@
     <!-- Font  -->
 
     <!-- Meta description -->
-    <meta name="description" content="L'oeil de l'Aix est une association pour les amateurs de photographies">
+    <meta name="description" content="L'œil de l'Aix est une association pour les amateurs de photographies">
 
     <title>L'oeil de l'Aix</title>
 </head>
@@ -22,9 +22,10 @@
     <!-- Nav -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="main-nav">
-        <div class="container-fluid justify-between">
-            <a href="index.html" class="navbar-brand">L'oeil de l'Aix</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <div class="container-fluid justify-content-between">
+            <a href="index.html" class="navbar-brand">L'œil de l'Aix</a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end pe-4" id="navbarCollapse">
@@ -52,12 +53,13 @@
 
             <div class="text-intro">
                 <h1>
-                    L'oeil de l'Aix
+                    L'œil de l'Aix
                 </h1>
            </div>
     </header>
 
     <!-- Section activités -->
+    <h2>Activités</h2>
 
     <section class="card">
         <div class="container">
@@ -68,7 +70,7 @@
                             <img class="card-img-top" src="img/enfant.jpg" alt="Image d'enfants">
                             <h5 class="card-title">Activités pour enfants</h5>
                             <p class="card-text">Apprentissage de la photographie aux enfants</p>
-                            <a href="#" class="btn btn-primary">Infos</a>
+                            <a href="#1" class="btn btn-primary">Infos</a>
                         </div>
                     </div>
                 </div>
@@ -78,7 +80,7 @@
                             <img class="card-img-top" src="img/paysage.jpg" alt="Image d'une chute d'eau">
                             <h5 class="card-title">Activités paysage photo</h5>
                             <p class="card-text">Cours paysage photo</p>
-                            <a href="#" class="btn btn-primary">Infos</a>
+                            <a href="#2" class="btn btn-primary">Infos</a>
                         </div>
                     </div>
                 </div>
@@ -88,7 +90,7 @@
                             <img class="card-img-top" src="img/portrait.jpg" alt="Image de protrait d'une jeune femme">
                             <h5 class="card-title">Activités portrait photo</h5>
                             <p class="card-text">Cours portrait photo</p>
-                            <a href="#" class="btn btn-primary">Infos</a>
+                            <a href="#3" class="btn btn-primary">Infos</a>
                         </div>
                     </div>
                 </div>
@@ -98,19 +100,35 @@
                             <img class="card-img-top" src="img/montage.jpg" alt="Image d'un ordinateur portable avec des appareils photos">
                             <h5 class="card-title">Activités montage photo</h5>
                             <p class="card-text">Cours montage photo</p>
-                            <a href="#" class="btn btn-primary">Infos</a>
+                            <a href="#4" class="btn btn-primary">Infos</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>    
-                
-        
-        
-
-
-
     </section>
+   
+
+   <!-- Formulaire -->
+
+    <form>
+        <h2>
+            <p>Nous contacter</p>
+        </h2>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Adresse email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"
+            placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Commentaires</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <a href="#5" class="btn btn-dark">Envoyer</a>
+        </div>
+    </form>
+
+    
+    
         
     
 
