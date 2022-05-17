@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b03ba67c32.js" crossorigin="anonymous"></script>
+    <!-- Lien CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font  -->
+
+    <!-- Meta description -->
+    <meta name="description" content="L'œil de l'Aix est une association pour les amateurs de photographies">
+
+    <title>L'oeil de l'Aix</title>
+</head>
+<body>
+
+    <!-- Nav -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+        <div class="container-fluid justify-content-between">
+            <a href="index.html" class="navbar-brand">L'œil de l'Aix</a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end pe-4" id="navbarCollapse">
+                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mr-1">
+                        <a href="#main-nav" class="nav-link">Accueil</a>
+                    </li>
+                    <li class="nav-item mr-1">
+                        <a href="#Event" class="nav-link">Evénement</a>
+                    </li>
+                 </ul>
+             </div>
+         </div>
+    </nav>
+    <!-- Section évènement -->
+    <section class="d-flex justify-content-center">
+        <div class="container py-3">
+          <div class="row pt-3 mt-5">
+            <h2 class="text-center">Nos évenements</h2>
+            <p class="text-center py-3">Voici les évèments que nous organisons avec les autres associations de la région.</p>
+          </div>
+        </div>
+      </section>
+      <section class="evenement mb-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-xl-4">
+              <div class="card">
+                <img src="img/enfant.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">Week end dans les Alpes</h5>
+                  <p class="card-text">Passez un weekend pour photographier ses beaux paysages ainsi qu'une virée nocturne.</p>
+                  <!-- modal event -->
+                  <button type="button" class="btn btn-secondary float-end" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1">Voir l'évenement</button>
+                  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel1">La tonte de mouton</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>date à mettre</h5>
+                          <h6>horaire à mettre</h6>
+                          <p>texte à faire.</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-xl-4">
+              <div class="card">
+                <img src="img/montage.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5 class="card-title">texte à faire</h5>
+                  <p class="card-text">texte à faire.</p>
+                  <!-- modal event -->
+                  <button type="button" class="btn btn-secondary float-end" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2">Voir
+                    l'évenement</button>
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel2">La traite à la main</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <h5>date à mettre</h5>
+                          <h6>horaire à mettre</h6>
+                          <p>texte à faire</p>
