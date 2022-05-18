@@ -27,22 +27,21 @@ header{
     height:80vh;
     position: relative;
 }
-.text-intro{
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-}
-
 .preTxt{
     font-size: 15px;
-    margin-bottom: 50px;
+    margin-top: 70vh;
     color: #e7a854;
     background-color: black;
+    position: absolute;
 }
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 320px) {
     .preTxt {
-     visibility:hidden;
+    width: 100%;
+    }
+   }
+   @media screen and (min-width: 992px) {
+    .preTxt {
+          font-size: 20px;
     }
    }
 
@@ -50,7 +49,11 @@ h1{
     font-size: 90px;
     color: #f1f1f1;
     font-weight: 700;
-    color: rgba(250, 249, 249, 0.4);
+    color: rgba(250, 249, 249, 0.8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
 }
 h2{
     width: 100%;
