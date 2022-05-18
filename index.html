@@ -38,65 +38,87 @@
             </div>
         </div>
     </nav>
+
+  
+
+
+
     <!-- Header , accueil grande image -->
     <header class="text-center">
             <div class="text-intro">
                 <h1>
                     L'œil de l'Aix
                 </h1>
-                <div class="preTxt ">Association aixoise pour passionnés de photographie</div>
            </div>
     </header>
+
+    <!-- Présentation -->
+    <section class="presentation"></section>
+        <h2>Présentation</h2>
+            <p>Bienvenue chez l'oeil de l'aix pour les passionés de photographie des bouches du rhône, nous proposons des initiations à l'apprentissage des différents types de photographie ainsi que du montage photos et participons à des évènements régionaux </p>
     <!-- Section activités -->
-    <h2>Activités</h2>
     <section class="card">
+        <h2>Activités</h2>
         <div class="container">
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card h-100">
-                        <div class="card_body">
+                        <div class="card-body">
                             <img class="card-img-top" src="img/enfant.jpg" alt="Image d'enfants">
                             <h5 class="card-title">Activités pour enfants</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti reiciendis recusandae velit laudantium provident sunt voluptatum quia quasi animi esse..</p>
-                            <a href="#1" class="btn btn-primary">Infos</a>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <div class="card_body">
+                        <div class="card-body">
                             <img class="card-img-top" src="img/paysage.jpg" alt="Image d'une chute d'eau">
                             <h5 class="card-title">Activités paysage photo</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti reiciendis recusandae velit laudantium provident sunt voluptatum quia quasi animi esse..</p>
-                            <a href="#2" class="btn btn-primary">Infos</a>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <div class="card_body">
+                        <div class="card-body">
                             <img class="card-img-top" src="img/portrait.jpg" alt="Image de portrait d'une jeune femme">
                             <h5 class="card-title">Activités portrait photo</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti reiciendis recusandae velit laudantium provident sunt voluptatum quia quasi animi esse..</p>
-                            <a href="#3" class="btn btn-primary">Infos</a>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <div class="card_body">
+                        <div class="card-body">
                             <img class="card-img-top" src="img/montage.jpg" alt="Image d'un ordinateur portable avec des appareils photos">
                             <h5 class="card-title">Activités montage photo</h5>
                             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti reiciendis recusandae velit laudantium provident sunt voluptatum quia quasi animi esse..</p>
-                            <a href="#4" class="btn btn-primary">Infos</a>
+                            
                         </div>
                     </div>
                 </div>
             </div>
         </div>    
     </section>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
    <!-- Formulaire -->
-    <form>
+    <!-- <form>
         <h2>
             <p>Nous contacter</p>
         </h2>
@@ -110,7 +132,57 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             <a href="#5" class="btn btn-dark">Envoyer</a>
         </div>
-    </form>
+    </form> -->
+
+    <section class="contact">
+        <div class="container pb-3">
+          <form class="row g-3 needs-validation" id="contactForm" novalidate>
+            <div class="row mt-2">
+              <h1 class="text-center">Nous contacter</h1>
+            </div>
+            <div class="col-md-6">
+              <label for="validationName" class="form-label">Nom de famille</label>
+              <input type="text" class="form-control" id="validationName" required>
+              <div class="invalid-feedback">
+                Veuillez saisir votre Nom
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationLastName" class="form-label">Prénom</label>
+              <input type="text" class="form-control" id="validationLastName" required>
+              <div class="invalid-feedback">
+                Veuillez saisir votre Prénom
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationPhone" class="form-label">Numéro de téléphone</label>
+              <input type="text" class="form-control" id="validationPhone" required>
+              <div class="invalid-feedback">
+                Veuillez saisir votre numéro de téléphone
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationMail" class="form-label">Adresse mail</label>
+              <input type="email" class="form-control" id="validationMail" required>
+              <div class="invalid-feedback">
+                Veuillez saisir votre mail
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Votre message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                placeholder="Ex: Nombre de personne" required></textarea>
+              <div class="invalid-feedback">
+                Saisir le nombre de personne
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-secondary" type="submit">Envoyer</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
 
     <!-- Footer -->
     <section class="footer bg-dark position-absolute w-100">
