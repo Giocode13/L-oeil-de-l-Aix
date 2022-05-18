@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap.min.css">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/b03ba67c32.js" crossorigin="anonymous"></script>
     <!-- Lien CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Font  -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito+Sans&display=swap" rel="stylesheet"> 
     <!-- Meta description -->
     <meta name="description" content="L'œil de l'Aix est une association pour les amateurs de photographies">
-
     <title>L'oeil de l'Aix</title>
 </head>
 <body>
-
-    <!-- Nav -->
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
-        <div class="container-fluid justify-content-between">
-            <a href="index.html" class="navbar-brand">L'œil de l'Aix</a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon"></span>
+    <!-- <div class="modal"
+    tabindex="-1"
+    role="dialog"
+    id="info"
+    >
+      <div class="modal-dialog-modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">coucou</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end pe-4" id="navbarCollapse">
-                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mr-1">
-                        <a href="#main-nav" class="nav-link">Accueil</a>
-                    </li>
-                    <li class="nav-item mr-1">
-                        <a href="#Event" class="nav-link">Evénement</a>
-                    </li>
-                 </ul>
-             </div>
-         </div>
-    </nav>
+          </div>
+          <div class="modal-body">
+            <p>je suis là</p>
+          </div>
+          <div class="modal_footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+    <div class="container-fluid justify-content-between">
+        <a href="index.html" class="navbar-brand"><span itemprop="name"> L'œil de l'Aix</span></a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end pe-4" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-1">
+                    <a class="nav-link" aria-current="page" href="index.html">Accueil</a>
+                </li>
+                <li class="nav-item mr-1">
+                    <a  class="nav-link active" href="#">Evénement</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
     <!-- Section évènement -->
     <section class="d-flex justify-content-center">
         <div class="container py-3">
@@ -59,8 +78,8 @@
                   <h5 class="card-title">Week end dans les Alpes</h5>
                   <p class="card-text">Passez un weekend pour photographier ses beaux paysages ainsi qu'une virée nocturne.</p>
                   <!-- modal event -->
-                  <button type="button" class="btn btn-secondary float-end" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal1">Voir l'évenement</button>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#info">
+                    Voir l'évenement</button>
                   <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
                     aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered">
@@ -105,3 +124,10 @@
                           <h5>date à mettre</h5>
                           <h6>horaire à mettre</h6>
                           <p>texte à faire</p>
+              
+                 
+                          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+                          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+                          </script>
+            
+      </body> 
