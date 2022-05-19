@@ -9,7 +9,7 @@ body{
     height: 100vh;
     background: #f1f1f1;
     font-family: Merienda one, sans-serif;
-    overflow-x: hidden;
+    
 }
 /* Nav */
 .navbar-brand{
@@ -28,16 +28,6 @@ header{
     width: 100%;
     position: relative;
 }
-/* .preTxt{
-    font-size: 15px;
-    margin-top: 70vh;
-    color: #e7a854;
-    background-color: black;
-    position: absolute;
-} */
-
-  
-
 h1{
     font-size: 90px;
     color: #f1f1f1;
