@@ -47,7 +47,7 @@ h2{
     text-align: center;
 }
 .presentation, p {
-    margin: 30px;
+    margin: 30px ;
    text-align: center;
     color:black;
 }
@@ -72,6 +72,9 @@ h5{
     text-align: center;
     margin: 10px;
 }
+.card-text, p {
+    font-size: 0.8rem;
+}
 
 /* Cache le button  en dessous de 990px */
 /* @media screen and (min-width: 990px) {
@@ -84,11 +87,8 @@ h5{
 /* Formulaire */
 form{
     margin: 20px;
-    
-    
 }
 
-a.btn.btn-dark{
+/* a.btn.btn-dark{
   margin-top: 10px;
-    
-}
+} */
