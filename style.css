@@ -10,12 +10,12 @@ body{
     height: 100vh;
     background: #f1f1f1;
     font-family: Merienda one, sans-serif;
-    
 }
 /* Nav + google font */
 .navbar-brand{
     font-size: 25px;
     font-family: Nunito sans, sans-serif;
+    
 }
 /* Header image + titre  */
 header{
@@ -27,6 +27,7 @@ header{
     position: relative;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    
 }
 h1{
     font-size: 90px;
@@ -59,6 +60,7 @@ h5{
 /* Font-size card + modal */
 .card-text, p {
     font-size: 0.8rem;
+    text-align: center;
 }
 /* Formulaire */
 .contact{
@@ -75,7 +77,13 @@ form{
     color: black;
     margin: 30px;
     }
+p{
+    font-size: 1.1rem;
+}
 
+footer{
+    bottom:0;
+    }
 /* Parallax  en dessous de 990px */ 
   @media screen and (max-width: 990px) {
     header {
