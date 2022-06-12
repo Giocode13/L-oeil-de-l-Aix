@@ -6,18 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap.min.css">
-        <!-- Lien CSS -->
+    <!-- Lien CSS -->
     <link rel="stylesheet" href="style.css">
     <!-- Google Font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito+Sans&display=swap" rel="stylesheet">
+     <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Meta description -->
     <meta name="description" content="L'œil de l'Aix est une association pour les amateurs de la photographie">
     <!-- Titre -->
     <title>L'oeil de l'Aix</title>
 </head>
 <body>
+   <!-- Header , accueil grande image -->
+   <header class="text-center">
+    <div class="text-intro">
+        <h1 class="text-center">
+            L'œil de l'Aix
+        </h1>
+   </div>
+</header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
         <div class="container-fluid justify-content-between">
@@ -38,14 +49,6 @@
             </div>
         </div>
     </nav>
-    <!-- Header , accueil grande image -->
-    <header class="text-center">
-            <div class="text-intro">
-                <h1 class="text-center">
-                    L'œil de l'Aix
-                </h1>
-           </div>
-    </header>
     <!-- Présentation -->
     <section class="presentation">
         <h2 class="text-center">Présentation</h2>
@@ -99,74 +102,62 @@
             </div>
         </div>    
     </section>
- 
+    <section id="contact" class=" py-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h2 class="text-center">Contactez-nous</h2>
+                  <form>
+                      <div class="input-group input-group-lg mb-3">
+                          <div class="input-group-prepend">
+                              <span class="input-group-text">
+                                  <i class="fas fa-user"></i>
+                              </span>
+                          </div>
+                          <input type="text" class="form-control" required placeholder="Nom">
+                      </div>
+                      <div class="input-group input-group-lg mb-3">
+                          <div class="input-group-prepend">
+                              <span class="input-group-text">
+                                  <i class="fas fa-envelope"></i>
+                              </span>
+                          </div>
+                          <input type="email" class="form-control" required placeholder="Email">
+                      </div>
+                      <div class="input-group input-group-lg mb-3">
+                          <div class="input-group-prepend">
+                              <span class="input-group-text">
+                                  <i class="fas fa-pencil-alt"></i>
+                              </span>
+                          </div>
+                          <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+                      </div>
 
-    <section class="contact">
-        <div class="container pb-3">
-          <form class="row g-3 needs-validation" id="contactForm" novalidate>
-            <div class="row mt-2">
-              <h2 class="text-center">Nous contacter</h2>
-            </div>
-            <div class="col-md-6">
-              <label for="validationName" class="form-label">Nom de famille</label>
-              <input type="text" class="form-control" id="validationName" required>
-              <div class="invalid-feedback">
-                Veuillez saisir votre Nom
+                      <input type="submit" value="Envoyer" id="bouton" class="btn btn-secondary">
+                  </form>
               </div>
-            </div>
-            <div class="col-md-6">
-              <label for="validationLastName" class="form-label">Prénom</label>
-              <input type="text" class="form-control" id="validationLastName" required>
-              <div class="invalid-feedback">
-                Veuillez saisir votre Prénom
-              </div>
-            </div>
-            <div class="col-md-6">
-              <label for="validationPhone" class="form-label">Numéro de téléphone</label>
-              <input type="text" class="form-control" id="validationPhone" required>
-              <div class="invalid-feedback">
-                Veuillez saisir votre numéro de téléphone
-              </div>
-            </div>
-            <div class="col-md-6">
-              <label for="validationMail" class="form-label">Adresse mail</label>
-              <input type="email" class="form-control" id="validationMail" required>
-              <div class="invalid-feedback">
-                Veuillez saisir votre mail
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Commentaire</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                placeholder="Ex: Quelle activité vous intéresse" required></textarea>
-              <div class="invalid-feedback">
-                Saisir le nombre de personne
-              </div>
-            </div>
-            <div class="col-12">
-              <button class="btn btn-secondary" type="submit">Envoyer</button>
-            </div>
-          </form>
-        </div>
-      </section>
-    </form>
-    <!-- Footer -->
-    <section class="footer bg-dark position-absolute w-100">
+
+          </div>
+      </div>
+  </section>
+      <footer  class="text-center bg-dark p-4">
         <div class="container">
-          <footer class="d-flex flex-wrap justify-content-center align-items-center py-3">
-            <div class="d-flex align-items-center">
-              <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="text-muted">© 2022 
-                <span itemprop="streetAddress">13 rue Bellevue</span>
-                <span itemprop="postalCode">13100</span>
-                <span itemprop="addressLocality">Aix en provence</span></span>
+            <div class="row">
+                <div class="col">
+                    <p>Tout Droits Réservés &copy; 2022<br>
+                      <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"></span>
+                      <span itemprop="streetAddress">13 rue Bellevue</span>
+                      <span itemprop="postalCode">13100</span>
+                      <span itemprop="addressLocality">Aix en provence</span></p>
+                
+                </div>
             </div>
-          </footer>
         </div>
-      </section>
-    <script src="app.js"></script>
+    </footer>
     <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+      <script src="app.js"></script>
 </body>
 </html>

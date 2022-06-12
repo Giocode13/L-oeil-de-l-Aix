@@ -39,6 +39,7 @@ h1{
     position: absolute;
     transform: translate(-50%,-50%);
 }
+
 /* Section Présentation */
 .presentation {
     margin: 30px ;
@@ -78,12 +79,17 @@ form{
     margin: 30px;
     }
 p{
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 footer{
     bottom:0;
+    color: #f1f1f1;
     }
+
+#bouton{
+        margin-left: 40px;
+}
 /* Parallax  en dessous de 990px */ 
   @media screen and (max-width: 990px) {
     header {
