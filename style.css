@@ -15,7 +15,6 @@ body{
 .navbar-brand{
     font-size: 25px;
     font-family: Nunito sans, sans-serif;
-    
 }
 /* Header image + titre  */
 header{
@@ -27,7 +26,6 @@ header{
     position: relative;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
 }
 h1{
     font-size: 90px;
@@ -43,6 +41,10 @@ h1{
 /* Section Présentation */
 .presentation {
     margin: 30px ;
+    
+}
+#texte1{
+    font-size: 0.9rem;
 }
 /* Section card */
 .card{
@@ -56,39 +58,21 @@ h1{
     margin-bottom: 10px;
 }
 h5{
-    margin: 10px;
-}
-/* Font-size card + modal */
-.card-text, p {
-    font-size: 0.8rem;
-    text-align: center;
-}
-/* Formulaire */
-.contact{
-    margin-top: 20px;
-}
-form{
     margin: 20px;
 }
-
-.lien{
-    text-align: center;
-    font-size: 2rem;
-    text-decoration: none;
-    color: black;
-    margin: 30px;
-    }
-p{
-    font-size: 0.9rem;
-}
-
+/* Footer */
 footer{
     bottom:0;
     color: #f1f1f1;
     }
-
 #bouton{
         margin-left: 40px;
+}
+/* (Page Event) */
+/*Font-size card + modal  */
+.card-text, p {
+    font-size: 0.8rem;
+    text-align: center;
 }
 /* Parallax  en dessous de 990px */ 
   @media screen and (max-width: 990px) {
