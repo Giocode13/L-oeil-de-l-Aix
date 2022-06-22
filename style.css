@@ -37,14 +37,13 @@ h1{
     position: absolute;
     transform: translate(-50%,-50%);
 }
-
 /* Section Présentation */
 .presentation {
     margin: 30px ;
     
 }
 #texte1{
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 /* Section card */
 .card{
@@ -60,7 +59,7 @@ h1{
 h5{
     margin: 20px;
 }
-/* Footer 1 */
+/* Footer */
 footer{
     bottom:0;
     color: #f1f1f1;
@@ -74,7 +73,7 @@ footer{
     font-size: 0.8rem;
     text-align: center;
 }
-/* Parallax  en dessous de 990px */ 
+/* Parallax  à partir de 990px */ 
   @media screen and (max-width: 990px) {
     header {
     background: url('img/accueil.jpg');
